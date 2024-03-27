@@ -173,14 +173,15 @@ const TransformationForm = ({
     type: string,
     onChangeField: (value: string) => void
   ) => {
-    debounce(() => {}, 1000);
-    setNewTransformation((prevState: any) => ({
-      ...prevState,
-      [type]: {
-        ...prevState?.[type],
-        [fieldName === "prompt" ? "prompt" : "to"]: value,
-      },
-    }));
+    debounce(() => {
+      setNewTransformation((prevState: any) => ({
+        ...prevState,
+        [type]: {
+          ...prevState?.[type],
+          [fieldName === "prompt" ? "prompt" : "to"]: value,
+        },
+      }));
+    }, 1000)();
     return onChangeField(value);
   };
 
