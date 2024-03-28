@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About this app
 
-## Getting Started
+This SaaS app utilizes Cloudinary AI which allows users to modify images in a variety of ways. They can remove items from images, manipulate image colours, generate fill and restore old images.
 
-First, run the development server:
+It was built using NextJs, TypeScript, TailwindCSS, Cloudinary, Clerk, ShadCN and Stripe to handle payments.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Users are able to save and download their images and the site runs on a credit system where payments for more credits are handled by Stripe.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Functionality & Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The site is fully adjustable for screen sizes ranging from mobile to desktop.
 
-## Learn More
+I followed a tutorial created by JavaScriptMastery to become more proficient with TypeScript and NextJs, learn more key principles and best practices in order to expand my portfolio.
 
-To learn more about Next.js, take a look at the following resources:
+The PixelWhiz app has been deployed on Vercel can be viewed here:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://pixelwhiz-aa3t-fuodhwd1y-willfranklands-projects.vercel.app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- NextJs
+- TypeScript
+- TailwindCSS
+- ShadCN
+- Clerk
+- Cloudinary
+- MongoDB
+- HTML
+- CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+!["Screenshot of Homepage"](docs/Homepage.png)
+!["Screenshot of Object Recolour"](docs/Object_Recolour.png)
+!["Screenshot of Background Removal"](docs/Background_Remove.png)
+!["Screenshot of Credit Purchase Screen"](docs/Purchase_Credits.png)
+
+
+# Getting Started
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm  i`
+### `npm  run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
