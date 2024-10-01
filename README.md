@@ -13,7 +13,7 @@ The site is fully adjustable for screen sizes ranging from mobile to desktop.
 
 I followed a tutorial created by JavaScriptMastery to become more proficient with TypeScript and NextJs, learn more key principles and best practices in order to expand my portfolio.
 
-The PixelWhiz app has been deployed on Vercel can be viewed here:
+The Imaginify app has been deployed on Vercel can be viewed here:
 
 https://pixelwhiz-aa3t-fuodhwd1y-willfranklands-projects.vercel.app
 
